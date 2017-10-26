@@ -27,7 +27,7 @@ class Commands extends PluginBase implements CommandExecutor{
         $this->plugin = $plugin;
     }
     
-    public function onCommand(CommandSender $sender, Command $cmd, $label, array $args) {
+    public function onCommand(CommandSender $sender, Command $command, string $label, array $args) {
     	$fcmd = strtolower($cmd->getName());
     	switch($fcmd){
     		case "massiveeconomy":
