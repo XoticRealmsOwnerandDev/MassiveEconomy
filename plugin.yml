@@ -1,7 +1,7 @@
 name: MassiveEconomy
 main: MassiveEconomy\MassiveEconomyAPI
 version: "1.0 R3"
-api: [2.0.0]
+api: [3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9]
 load: STARTUP
 author: EvolSoft
 description: A MassiveEconomy Plugin + API.
